@@ -1,0 +1,298 @@
+
+    
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="bi bi-code-slash"></i> CodeMarket</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="adminToggle">Admin</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <div class="cart-icon-wrapper me-3">
+                        <i class="bi bi-cart3 text-white fs-5"></i>
+                        <span class="cart-badge" id="cartCount">0</span>
+                    </div>
+                    <button class="btn btn-outline-light">Sign In</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    
+    <section class="hero-section">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold mb-4">Premium Code &amp; Scripts</h1>
+            <p class="lead mb-5">High-quality, tested code solutions for developers and businesses</p>
+            <div class="search-container">
+                <i class="bi bi-search search-icon"></i>
+                <input type="text" class="form-control search-input" placeholder="Search for scripts, plugins, themes..." id="searchInput">
+            </div>
+        </div>
+    </section>
+
+    
+    <div class="container mb-4">
+        <ul class="nav nav-pills category-pills" id="categoryTabs">
+            <li class="nav-item">
+                <a class="nav-link active" data-category="all" href="#">All Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-category="javascript" href="#">JavaScript</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-category="wordpress" href="#">WordPress</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-category="react" href="#">React</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-category="php" href="#">PHP</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-category="python" href="#">Python</a>
+            </li>
+        </ul>
+    </div>
+
+    
+    <section id="products" class="container mb-5">
+        <div class="row" id="productContainer">
+            
+        </div>
+    </section>
+
+    
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <h2 class="fw-bold mb-4">About CodeMarket</h2>
+                    <p class="lead mb-4">We provide high-quality, tested code solutions that save developers time and help businesses implement features faster.</p>
+                    <p>Our products are created by experienced developers, thoroughly tested, and come with documentation and support to ensure you can integrate them seamlessly into your projects.</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <div class="text-center">
+                                <div class="feature-icon">
+                                    <i class="bi bi-check-circle-fill"></i>
+                                </div>
+                                <h5>Quality Assured</h5>
+                                <p>All code is tested and reviewed before being listed.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="text-center">
+                                <div class="feature-icon">
+                                    <i class="bi bi-headset"></i>
+                                </div>
+                                <h5>Expert Support</h5>
+                                <p>Get help from our team when you need it.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="text-center">
+                                <div class="feature-icon">
+                                    <i class="bi bi-arrow-repeat"></i>
+                                </div>
+                                <h5>Free Updates</h5>
+                                <p>Receive updates and improvements for free.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="text-center">
+                                <div class="feature-icon">
+                                    <i class="bi bi-shield-check"></i>
+                                </div>
+                                <h5>Secure Payments</h5>
+                                <p>Your transactions are always secure.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="testimonials" class="container mb-5">
+        <h2 class="text-center fw-bold mb-4">What Our Customers Say</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="testimonial-card">
+                    <div class="stars mb-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>"The WordPress plugin I purchased saved me weeks of development time. Well worth the price!"</p>
+                    <div class="d-flex align-items-center">
+                        <img src="https://picsum.photos/seed/person1/40/40.jpg" class="rounded-circle me-2" alt="Customer">
+                        <div>
+                            <h6 class="mb-0">Sarah Johnson</h6>
+                            <small>Web Developer</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="testimonial-card">
+                    <div class="stars mb-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>"The React component library I bought was exactly what I needed for my project. Great documentation!"</p>
+                    <div class="d-flex align-items-center">
+                        <img src="https://picsum.photos/seed/person2/40/40.jpg" class="rounded-circle me-2" alt="Customer">
+                        <div>
+                            <h6 class="mb-0">Michael Chen</h6>
+                            <small>Frontend Developer</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="testimonial-card">
+                    <div class="stars mb-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>"The Python script I purchased automated a process that was taking hours each day. Highly recommend!"</p>
+                    <div class="d-flex align-items-center">
+                        <img src="https://picsum.photos/seed/person3/40/40.jpg" class="rounded-circle me-2" alt="Customer">
+                        <div>
+                            <h6 class="mb-0">David Wilson</h6>
+                            <small>Data Analyst</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="adminSection" class="container admin-section">
+        <h2 class="fw-bold mb-4">Admin Panel</h2>
+        <div class="product-form">
+            <h4 class="mb-4">Add New Product</h4>
+            <form id="addProductForm">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="productName" class="form-label">Product Name</label>
+                        <input type="text" class="form-control" id="productName" required="">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="productCategory" class="form-label">Category</label>
+                        <select class="form-select" id="productCategory" required="">
+                            <option value="">Select Category</option>
+                            <option value="javascript">JavaScript</option>
+                            <option value="wordpress">WordPress</option>
+                            <option value="react">React</option>
+                            <option value="php">PHP</option>
+                            <option value="python">Python</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="productDescription" class="form-label">Description</label>
+                    <textarea class="form-control" id="productDescription" rows="3" required=""></textarea>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="productPrice" class="form-label">Price ($)</label>
+                        <input type="number" class="form-control" id="productPrice" min="1" step="0.01" required="">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="productImage" class="form-label">Image URL</label>
+                        <input type="url" class="form-control" id="productImage" placeholder="https://example.com/image.jpg">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="productFile" class="form-label">Download URL</label>
+                    <input type="url" class="form-control" id="productFile" placeholder="https://example.com/file.zip">
+                </div>
+                <button type="submit" class="btn btn-primary">Add Product</button>
+            </form>
+        </div>
+    </section>
+
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5 class="mb-3">CodeMarket</h5>
+                    <p>Premium code solutions for developers and businesses worldwide.</p>
+                    <div class="d-flex">
+                        <a href="#" class="text-white me-3"><i class="bi bi-facebook fs-5"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-twitter fs-5"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-linkedin fs-5"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-github fs-5"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 class="mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Browse Products</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Become a Seller</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Support</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 class="mb-3">Newsletter</h5>
+                    <p>Subscribe to get updates on new products and special offers.</p>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Your email">
+                        <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="bg-white my-4">
+            <div class="text-center">
+                <p>© 2023 CodeMarket. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    
+    <div class="toast-container">
+        <div class="toast" id="notificationToast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <strong class="me-auto">Notification</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body" id="toastMessage">
+                Product added to cart!
+            </div>
+        </div>
+    </div>
+
+    
+    
+
